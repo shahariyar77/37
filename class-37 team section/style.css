@@ -1,0 +1,90 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:Roboto;
+    
+}
+.team-bg{
+	background-image: url(img/team1.jpg);
+	background-size: cover;
+	background-position: center;
+}.team-bg2{
+	background-image: url(img/team2.jpg);
+	background-size: cover;
+	background-position: center;
+}.team-bg3{
+	background-image: url(img/team3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*========================   Nav manu ==================*/
+
+
+.section-tittle {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: right;
+  transform: rotate(270deg);
+  margin-top: 125px;
+  margin-left: -30px;
+}
+.section-tittle::before {
+  position: absolute;
+  right: 16px;
+  top: -36px;
+  height: 1px;
+  width: 60%;
+  content: "";
+  background: #000;
+}
+.team-bg {
+  height: 300px;
+  margin-bottom: 50px;
+}
+.team-bg2 {
+  height: 300px;
+  margin-bottom: 50px;
+}
+.team-bg3 {
+  height: 300px;
+  margin-bottom: 50px;
+}
+.border-content {
+  border: 1px solid#ddd;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.content-tittle h3 {
+  font-size: 27px;
+  background: #fff;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+.content-tittle {
+  margin-top: -34px;
+}
+.content-tittle p {
+  font-size: 16px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+  margin-top: 100px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+
+
+
+
+
